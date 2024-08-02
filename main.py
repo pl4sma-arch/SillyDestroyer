@@ -42,6 +42,7 @@ def all():
                 terminate_life()
             else:
                 print(f"i'm sooorry it was {rnumber}")
+                terminate_life()
         except KeyboardInterrupt:
             import pystyle
             import time
